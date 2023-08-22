@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
+<base base="<?php echo INCLUDE_PATH; ?>" />
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>css/style.css">
+    <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Hx Informática">
+	<meta name="description" content="A simple delivery system, where the user places the order and sends the proof via whatsapp.">
+	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>img/ico.ico" type="image/x-icon" />
     <title>Simple Smart</title>
 </head>
+<base base="<?php echo INCLUDE_PATH; ?>" />
 <body>
+<base base="<?php echo INCLUDE_PATH; ?>" />
+
     <header id="head">
         <div class="container">
             <div class="logo">
@@ -101,5 +107,41 @@
                 <div class="ab"><a href="#plans"><i class="fa fa-arrow-down"></i></a></div><!--ab-->
         </div><!--container-->
     </div><!--depoimentos-->
+
+    <div class="plans">
+        <div class="container">
+            <div class="title">
+                <h1>Planos</h1>
+                <x>Nossos planos são acessíveis a qualquer bolso!</x>
+            </div><!--title-->
+            <div class="pl_wrapper">
+
+                <div class="pl_single">
+                    <div class="pl_text">
+                        <h4>Plano P</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at auctor lacus, in commodo enim. Phasellus lorem lectus, varius id lorem sed, bibendum venenatis sem.</p>
+                        <a href="">R$ 19,90 por R$ 7,90</a>
+                    </div><!--pl_text-->
+                </div><!--pl_single-->
+
+                <div class="pl_single">
+                    <div class="pl_text">
+                        <h4>Plano M</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at auctor lacus, in commodo enim. Phasellus lorem lectus, varius id lorem sed, bibendum venenatis sem.</p>
+                        <a href="">R$ 39,90 por R$ 18,90</a>
+                    </div><!--pl_text-->
+                </div><!--pl_single-->
+
+                <div class="pl_single">
+                    <div class="pl_text">
+                        <h4>Plano G</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at auctor lacus, in commodo enim. Phasellus lorem lectus, varius id lorem sed, bibendum venenatis sem.</p>
+                        <a href="">R$ 99,90 por R$ 55,90</a>
+                    </div><!--pl_text-->
+                </div><!--pl_single-->
+
+            </div><!--pl_wrapper-->
+        </div><!--container-->
+    </div><!--plans-->
 </body>
 </html>
